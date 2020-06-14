@@ -1,0 +1,325 @@
+        /*CSS for taral's index page.*/
+        
+        body {
+            background: #FFFFFF;
+            font-family: arial, "century gothic", calibri;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .header {
+            float: center;
+            width: 100%;
+        }
+        
+        div.topleft {
+            color: #FFFFFF;
+            padding: 1%;
+            float: left;
+            background-color: #000080;
+            width: 27%;
+        }
+        
+        div.topright {
+            background-color: #191970;
+            color: #FFFFFF;
+            padding: 1%;
+            width: 73%;
+            float: right;
+        }
+        
+        .topleft>p {
+            float: right;
+        }
+        
+        .topright>p {
+            float: right;
+        }
+        
+        * {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .container {
+            clear: both;
+            overflow: auto;
+            background-color: #FFFFFF;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 100%;
+        }
+        
+        .nav {
+            float: right;
+            background-color: #FFFFFF;
+            font-size: x-large;
+            text-decoration: none;
+        }
+        
+        .logo img {
+            float: left;
+            padding: 1%;
+        }
+        
+        ul li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #008000;
+            text-decoration: none;
+        }
+        
+        .mainclass {
+            overflow: auto;
+            display: block;
+        }
+        
+        .mainclass>div {
+            display: block;
+            width: inherit;
+        }
+        
+        .section1 {
+            background-image: url(/media/images4.jpg);
+            padding: 10%;
+        }
+        
+        h3 {
+            color: #000080;
+            font-size: 30px;
+        }
+        
+        .section1>div {
+            border: #fffff0;
+            border-width: 5px;
+            border-right: none;
+            border-bottom: none;
+            color: #ffffff;
+            font-size: 24px;
+        }
+        
+        .section3 {
+            display: inline-flex;
+            padding: 2%;
+        }
+        
+        .flex-box {
+            display: flex;
+            overflow: auto;
+        }
+        
+        .flex-box>div {
+            margin: 30px;
+            padding: 35px;
+            font-size: 14px;
+            background-color: lightgray;
+            text-align: center;
+            border-bottom: #000000 solid 3px;
+            width: 100%;
+        }
+        
+        .section2 {
+            padding: 6%;
+            display: block;
+        }
+        
+        .section2 div {
+            display: inline;
+        }
+        
+        .section2>hr {
+            float: left;
+        }
+        
+        .section2 p {
+            color: gray;
+            font-size: 14px;
+        }
+        
+        .nav1 {
+            display: inline;
+            width: 40%;
+        }
+        
+        .nav1 nav {
+            padding: 1%;
+            width: 60%;
+        }
+        
+        .nav1 ul li {
+            display: inline-block;
+            background-color: honeydew;
+            text-align: center;
+            box-shadow: 10px 10px 50px 10px grey;
+            width: 30%;
+            padding: 4%;
+        }
+        
+        .nav1 span {
+            display: block;
+            color: green;
+            font-size: 26px;
+        }
+        
+        .imgsect2 {
+            display: inline;
+            float: right;
+            width: 50%;
+        }
+        
+        .imgsect2 img {
+            float: right;
+        }
+        
+        .section3 {
+            padding: 10%;
+            display: block;
+        }
+        
+        .section3>p {
+            color: lightslategrey;
+            font-size: 14px;
+        }
+        
+        .section3>hr {
+            float: left;
+        }
+        
+        .flex-box i {
+            font-size: 50px;
+        }
+        
+        .section4 {
+            display: block;
+            margin: 4%;
+        }
+        
+        .section4 div {
+            display: inline;
+            padding: 2%;
+        }
+        
+        .image4 img {
+            float: left;
+            width: 50%;
+        }
+        
+        .image4side div {
+            float: right;
+            text-align: left;
+            width: 30%;
+            font-size: 14px;
+        }
+        
+        .image4side ul li {
+            font-size: 14px;
+            list-style: ;
+        }
+        
+        .image4side p {
+            color: lightslategrey;
+            font-size: 14px;
+        }
+        
+        .image4side ul {
+            color: lightslategrey;
+        }
+        
+        .image4side li {
+            list-style-type: symbols(>);
+        }
+        
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+        .about-us {
+            display: block;
+            padding: 20%;
+            background-image: url("/media/images3.jpg");
+        }
+        
+        .about-us>div {
+            display: inline;
+            padding: 2%;
+            text-align: left;
+            float: right;
+            width: 40%;
+        }
+        
+        .about-us-details {
+            background-color: #ffffff;
+            color: black;
+        }
+        
+        .float {
+            background-color: #bfff00;
+            float: center;
+            display: inline;
+        }
+        
+        .float>div {
+            display: inline-flex;
+            padding: 2%;
+        }
+        
+        .flex p {
+            float: left;
+        }
+        
+        .float p button {
+            float: right;
+        }
+        
+        footer {
+            background-color: #030346;
+            color: #FFFFFF;
+            width: 100%;
+            overflow: auto;
+        }
+        
+        .footer-container {
+            display: inline-flex;
+            padding: 2%;
+            color: #FFFFFF;
+        }
+        
+        .footer-container>div {
+            margin: 2%;
+            padding: 2%;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        div.copyrights {
+            float: left;
+            padding: 1%;
+        }
+        
+        div.credits span {
+            color: #00FF00;
+        }
+        
+        div.credits {
+            float: right;
+            padding: 1%;
+        }
